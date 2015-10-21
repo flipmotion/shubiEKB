@@ -1,0 +1,48 @@
+.header {
+	background: rgba(248,202,40,.67);
+	padding: 10px 0;
+	.logo {
+		margin-top: 5px;
+	}
+	.navbar {
+		margin-bottom: 0;
+		background: 0 0;
+		border: none;
+		border-radius: 0;
+	}
+	.navbar-nav {
+		display: flex;
+		justify-content: space-between;
+		float: none;
+		margin: 13px 0 0 0;
+	}
+	.navbar-default .navbar-nav>li{
+		&>a {
+			padding: 0;
+			font-size: 18px;
+			.mgbold;
+			color: #000;
+			&:hover,&:focus {
+				background: 0 0;
+				color: #000;
+			}
+		}
+		&.active {
+			a {
+				background: 0 0;
+			}
+			&:hover,&:focus {
+				background: 0 0;
+				color: #000;
+			}
+		}
+	}
+	.phone {
+		font-size: 17px;
+		.mgbold;
+		margin-bottom: 0;
+	}
+	p b {
+		.mgbold;
+	}
+}
